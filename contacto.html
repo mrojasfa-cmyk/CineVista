@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>CineVista — Contacto</title>
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/contacto.css"/>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="wrapper header-row">
+    <div class="brand">
+      <div class="brand-badge" aria-hidden="true">🎬</div>
+      <div>
+        <h1>CineVista</h1>
+        <p>Cartelera, reseñas y favoritos</p>
+      </div>
+    </div>
+
+    <nav class="site-nav" aria-label="Menú principal">
+      <ul class="nav-list">
+        <li><a href="index.html" aria-current="page">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="detalle.html">Detalle</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="tendencias.html">Tendencias</a></li>
+        <li><a href="comunidad.html">Comunidad</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+<section class="section">
+  <div class="wrapper hero-grid">
+    <article class="hero-card"><div class="content">
+      <span class="kicker">🎬 Contacto</span>
+      <h2>Escríbenos</h2>
+      <p class="muted">Formulario demostrativo para practicar estructura y estilos fluidos.</p>
+      <form class="form" action="#" method="post">
+        <div class="field"><label for="nombre">Nombre</label><input id="nombre" name="nombre" placeholder="Tu nombre" required/></div>
+        <div class="field"><label for="correo">Correo</label><input id="correo" name="correo" type="email" placeholder="tu@correo.com" required/></div>
+        <div class="field"><label for="tema">Tema</label>
+          <select id="tema" name="tema"><option>Consulta</option><option>Soporte</option><option>Colaboración</option></select>
+        </div>
+        <div class="field"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje..."></textarea></div>
+        <div class="actions"><button class="btn primary" type="submit">Enviar</button><a class="btn" href="index.html">Volver</a></div>
+      </form>
+    </div></article>
+    <aside class="hero-card"><div class="content">
+      <h3>Horario</h3><p class="muted">Lunes a viernes • 8:00 a.m. — 5:00 p.m.</p>
+      <h3>Ubicación</h3><p class="muted">Costa Rica • Dirección demostrativa</p>
+      <img class="fluid" src="assets/thumb3.svg" alt="Imagen de ubicación"/>
+    </div></aside>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrapper footer-grid">
+    <div>
+      <strong>CineVista</strong><br/>
+      <small>Proyecto académico — Diseño fluido (sin media queries)</small>
+    </div>
+    <div>
+      <small>Contacto: cinevista@ejemplo.com</small><br/>
+      <small>Tel: +506 1456-8890</small>
+    </div>
+    <div>
+      <small>© 2026 CineVista — Proyecto académico sobre cine</small>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
